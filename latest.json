@@ -1,14 +1,14 @@
 {
-  "version": "v1.1.0",
-  "changelog": "新增功能：\n- 自动更新机制，支持一键检查更新、下载、重启\n- --debug CLI 标志，终端日志控制\n- 托盘菜单优化，有新版时自动提示\n- 系统托盘新增版本信息\n- 重构 container.C 模式，规范服务访问\n\n修复：\n- 修复临时目录创建失败问题\n- 修复 GitHub Release 下载 URL（tag 改用横杠）\n- 修复 systray 菜单动态添加不生效问题",
+  "version": "v1.1.1",
+  "changelog": "优化：\n- 更新机制改为下载到 ~/.meta-proxy/bin/，不再修改 .app 包\n- 解决 macOS 签名校验导致的版本不兼容问题\n- Windows 支持，HideWindow 抽到公共包\n- Info.plist 补充 CFBundlePackageType\n- 托盘菜单简化，最新版显示\"已是最新版\"",
   "platforms": {
     "darwin": {
-      "url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/QuoVadis86/meta-proxy-releases/main/v1.1.0/meta-proxy-darwin",
-      "installer_url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/QuoVadis86/meta-proxy-releases/main/v1.1.0/Meta-Proxy.dmg"
+      "url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/QuoVadis86/meta-proxy-releases/main/v1.1.1/meta-proxy-darwin",
+      "installer_url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/QuoVadis86/meta-proxy-releases/main/v1.1.1/Meta-Proxy.dmg"
     },
     "windows": {
-      "url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/QuoVadis86/meta-proxy-releases/main/v1.1.0/meta-proxy-win.exe",
-      "installer_url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/QuoVadis86/meta-proxy-releases/main/v1.1.0/meta-proxy-win.exe"
+      "url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/QuoVadis86/meta-proxy-releases/main/v1.1.1/meta-proxy-win.exe",
+      "installer_url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/QuoVadis86/meta-proxy-releases/main/v1.1.1/meta-proxy-win.exe"
     }
   }
 }
