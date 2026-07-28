@@ -2,7 +2,13 @@
   "version": "v1.1.0",
   "changelog": "",
   "platforms": {
-    "darwin": { "url": "https://cdn.gh-proxy.org/https://github.com/safore-com/meta-apps/releases/download/meta-proxy/v1.1.0/meta-proxy" },
-    "windows": { "url": "https://cdn.gh-proxy.org/https://github.com/safore-com/meta-apps/releases/download/meta-proxy/v1.1.0/meta-proxy.exe" }
+    "darwin": {
+      "url": "https://cdn.gh-proxy.org/https://github.com/safore-com/meta-apps/releases/download/meta-proxy/v1.1.0/meta-proxy",
+      "installer_url": "https://cdn.gh-proxy.org/https://github.com/safore-com/meta-apps/releases/download/meta-proxy/v1.1.0/Meta%20Proxy.dmg"
+    },
+    "windows": {
+      "url": "https://cdn.gh-proxy.org/https://github.com/safore-com/meta-apps/releases/download/meta-proxy/v1.1.0/meta-proxy.exe",
+      "installer_url": "https://cdn.gh-proxy.org/https://github.com/safore-com/meta-apps/releases/download/meta-proxy/v1.1.0/meta-proxy.exe"
+    }
   }
 }
