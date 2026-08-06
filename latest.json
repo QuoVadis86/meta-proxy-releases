@@ -1,6 +1,6 @@
 {
   "version": "v1.1.5",
-  "changelog": "优化：\n- 更新机制改为下载到 ~/.meta-proxy/bin/，不再修改 .app 包\n- 解决 macOS 签名校验导致的版本不兼容问题\n- Windows 支持，HideWindow 抽到公共包\n- Info.plist 补充 CFBundlePackageType\n- 托盘菜单简化，最新版显示\"已是最新版\"",
+  "changelog": "修复：\n- 修复版本比较问题，避免不同版本号前缀导致每次启动都提示更新\n- 更新后同步替换桌面等启动入口，无需重复下载更新\n- 自动清理更新后残留的 .old 文件",
   "platforms": {
     "darwin": {
       "url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/QuoVadis86/meta-proxy-releases/main/v1.1.5/meta-proxy-darwin",
